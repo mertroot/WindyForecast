@@ -1,16 +1,27 @@
-# windyforecast
+# ☁️ WindyForecast Hava Durumu Uygulaması
 
-minimal forecast app
+#Tanıtım 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![Hava Durumu Uygulaması](./assets/WindyForecastReklam.jpg)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Bu uygulama, kullanıcılara anlık ve 7 günlük hava durumu tahminleri sunan modern bir hava durumu uygulamasıdır. Konum bazlı hava durumu takibi, şehir ve ilçe seçimi gibi özellikleri sayesinde kullanıcıların anlık hava koşullarını hızlıca öğrenmesini sağlar.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 🌐 Temel Özellikler
+- Konum Tabanlı Hava Durumu: Uygulama açıldığında, kullanıcının bulunduğu konumu algılayarak hava durumu bilgilerini gösterir.
+- Şehir ve İlçe Seçimi: Kullanıcılar istedikleri şehir ve ilçeyi seçerek o bölgedeki hava durumu verilerini görüntüleyebilir.
+- Saatlik Hava Durumu Tahmini: Her saat için ayrı ayrı sıcaklık, nem oranı ve rüzgar hızı gibi veriler sunulmaktadır.
+- 7 Günlük Hava Durumu: Kullanıcılar bir haftalık hava durumu tahminlerini inceleyebilir.
+- Rüzgar Hızı ve Nem Bilgisi: Anlık rüzgar hızı, nem oranı ve hava durumu koşulları detaylı olarak gösterilir.
+
+#🚀 Gelecek Güncellemeler
+-Hava durumu bildirimleri
+-Karanlık mod desteği
+-Daha fazla detaylı grafikler
+
+#Geliştirici
+- Uygulama Geliştiricisi **Mertroot** [Mertroot'un LinkedIn Profili](https://www.linkedin.com/in/mertbacara/)
+
+
+
