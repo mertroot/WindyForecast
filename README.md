@@ -4,8 +4,6 @@
 
 
 ![Hava Durumu Uygulaması](./assets/WindyForecastReklam.jpg)
-
-
 Bu uygulama, kullanıcılara anlık ve 7 günlük hava durumu tahminleri sunan modern bir hava durumu uygulamasıdır. Konum bazlı hava durumu takibi, şehir ve ilçe seçimi gibi özellikleri sayesinde kullanıcıların anlık hava koşullarını hızlıca öğrenmesini sağlar.
 
 # 🌐 Temel Özellikler
