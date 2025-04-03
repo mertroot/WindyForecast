@@ -209,7 +209,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         width: size.width,
         height: size.height,
-        padding: const EdgeInsets.only(top: 40, left: 10, right: 10),
+        padding: const EdgeInsets.only(top: 39, left: 10, right: 10),
         color: Constants.primaryColor.withOpacity(0.1),
         child: Column(
           children: [
@@ -234,12 +234,12 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(bottom: 80),
+                    padding: const EdgeInsets.only(bottom: 100),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Image.asset("assets/menu.png", width: 40, height: 40),
+                        Image.asset("assets/menu.png", width: 50, height: 40),
                         Row(
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
@@ -263,7 +263,7 @@ class _HomePageState extends State<HomePage> {
                                           context,
                                         ),
                                         child: Container(
-                                          height: size.height * 0.2,
+                                          height: size.height * 0.5,
                                           padding: const EdgeInsets.symmetric(
                                             vertical: 10,
                                             horizontal: 20,
@@ -334,7 +334,7 @@ class _HomePageState extends State<HomePage> {
                           borderRadius: BorderRadius.circular(10),
                           child: Image.asset(
                             "assets/user.png",
-                            width: 40,
+                            width: 35,
                             height: 40,
                           ),
                         ),
@@ -347,7 +347,7 @@ class _HomePageState extends State<HomePage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                       SizedBox(
-                        height: 160,
+                        height: 130, //Değiştirilecek
                         child: Image.asset("assets/$weatherIcon"),
                       ),
                       Padding(
@@ -366,7 +366,7 @@ class _HomePageState extends State<HomePage> {
                             Text(
                               '°',
                               style: TextStyle(
-                                fontSize: 80,
+                                fontSize: 70,
                                 fontWeight: FontWeight.bold,
                                 foreground: Paint()..shader = Constants.shader,
                               ),
@@ -393,7 +393,7 @@ class _HomePageState extends State<HomePage> {
                     child: const Divider(color: Colors.white70),
                   ),
                   Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 40),
+                    padding: const EdgeInsets.symmetric(horizontal: 30),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -462,7 +462,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   const SizedBox(height: 8),
                   SizedBox(
-                    height: 110,
+                    height: 120,
                     child: ListView.builder(
                       itemCount: hourlyWeatherForecast.length,
                       scrollDirection: Axis.horizontal,
