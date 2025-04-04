@@ -169,12 +169,14 @@ class _DetailPageState extends State<DetailPage> {
                       children: [
                         Positioned(
                           width: 145,
+                          top: 20,
+                          left: 10,
                           child: Image.asset(
                             "assets/" + getForecastWeather(0)["weatherIcon"],
                           ),
                         ),
                         Positioned(
-                          top: 170,
+                          top: 150,
                           left: 20,
                           child: Padding(
                             padding: const EdgeInsets.only(bottom: 10.0),
@@ -184,14 +186,15 @@ class _DetailPageState extends State<DetailPage> {
                               )["weatherName"], // Türkçeleştirilmiş hava durumu
                               style: const TextStyle(
                                 color: Colors.white,
-                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 30,
                               ),
                             ),
                           ),
                         ),
                         Positioned(
-                          bottom: 20,
-                          left: 20,
+                          bottom: 19,
+                          left: 10,
                           child: Container(
                             width: size.width * .9,
                             padding: const EdgeInsets.symmetric(horizontal: 20),
